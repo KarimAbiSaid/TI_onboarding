@@ -1,0 +1,25 @@
+# local test runs and all generated outputs (huge, and derived from licensed data)
+test_run/
+test_run_scitas/
+work/
+
+# head models, simulation results, atlases, leadfields
+m2m_*/
+*.msh
+*.msh.opt
+*.geo
+*.hdf5
+*.nii
+*.nii.gz
+*.mat
+*.log
+
+# Jupyter / Python clutter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
